@@ -1,5 +1,5 @@
 # Spring With React
-## I'm developing a project with two technologies
+## I'm developing a project with three technologies
 - Java for the backend with Spring Framework 
 - JavaScript for the frontend with React Framework
 - SQL Server for the database
