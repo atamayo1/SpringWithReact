@@ -1,11 +1,11 @@
-import React from 'react';
+import configuration from '../../Config/configuration.json'
+import axios from 'axios'
 
-const EmployeeService = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+class EmployeeService{
+
+    getEmployees(){
+        return axios.get(configuration.apiBaseUrl+'/employees');
+    }
 };
 
-export default EmployeeService;
+export default new EmployeeService();
